@@ -11,7 +11,7 @@ public final class MathUtils {
      * @param n the number n.
      * @return the factorial.
      */
-    public static int factorial(int n) {
+    public static double factorial(double n) {
         if (n == 0 || n == 1) {
             return 1;
         }
