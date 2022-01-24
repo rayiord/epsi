@@ -26,6 +26,8 @@
 	</dependency>
 </dependencies>
 	
+
+	
 <reporting>
 	<plugins>
 		<plugin>
@@ -33,25 +35,15 @@
 			<artifactId>findbugs-maven-plugin</artifactId>
 			<version>3.0.1</version>
 		</plugin>
-	</plugins>
-</reporting>
-	
-<reporting>
-	<plugins>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-pmd-plugin</artifactId>
-			<version>3.14.0</version>
-		</plugin>
-	</plugins>
-</reporting>
-	
-<reporting>
-	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-checkstyle-plugin</artifactId>
 			<version>3.1.1</version>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-pmd-plugin</artifactId>
+			<version>3.14.0</version>
 		</plugin>
 	</plugins>
 </reporting>
